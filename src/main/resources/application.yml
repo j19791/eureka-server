@@ -1,0 +1,10 @@
+# configuração para q o próprio servidor eureka não se registre
+
+eureka:
+  client:    fetch-registry: false
+    register-with-eureka: false
+
+# porta padrão
+    
+server:
+  port: 8761
